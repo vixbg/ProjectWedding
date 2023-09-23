@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="L'amore is modern and responsive wedding template.">
+	<!-- change to title of your website -->
+	<title>L'amore - Documentation</title>
+
+	<!--===============  FONTS ===============-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,600i|Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="../assets/css/vendors/bootstrap.min.css">
+	<style>
+	body {
+		font-family: 'Montserrat', sans-serif;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		position: relative;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Roboto Slab', serif;
+	}
+
+	h1 {
+		font-size: 34px;
+	}
+
+	h2 {
+		font-size: 28px;
+		margin-bottom: 34px;
+	}
+
+	h3 {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	h5 {
+		font-size: 16px;
+	}
+
+	h6 {
+		font-size: 14px;
+	}
+
+	section {
+		margin: 60px 0;
+		padding-bottom: 50px;
+		border-bottom: 1px solid #e5e5e5;
+	}
+
+	code {
+		background: #fbfafa;
+		display: block;
+		padding: 30px;
+		margin-bottom: 20px;
+	}
+
+	pre {
+		color: #e83e8c;
+		margin-bottom: 0;
+		background: #fbfafa;
+	}
+
+	pre code {
+		padding: 10px 30px;
+		margin-bottom: 0;
+	}
+
+	mark {
+		background-color: #edcf5f;
+		padding: 1px 12px;
+		display: inline-block;
+	}
+
+	p span {
+		font-weight: 600;
+	}
+
+	ul {
+		margin: 10px 0 40px;
+	}
+
+	header, footer {
+		padding: 50px 0;
+		background-color: #ce407a;
+		color: #fff;
+	}
+
+	.u-m-b-4 {
+		margin-bottom: 40px;
+	}
+
+	.u-decoration-underline {
+		display: inline-block;
+		border-bottom: 2px solid black;
+		padding-bottom: 5px;
+	}
+
+	</style>
+</head>
+<body>
+
+	<header>
+		<h5 class="text-center">L'amore Wedding Template</h5>
+		<h1 class="text-center">Documentation</h1>
+	</header>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center">Change header image(s)</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h3 class="u-decoration-underline">Single page template</h3>
+					<p>1. Open <span>style.css</span> inside <span>assets/css</span> folder.</p>
+					<p>2. On <strong>Line 213</strong> change URL to your image URL.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					<pre class="u-m-b-4">
+						<code>
+/*============== 3. Hero ==============*/
+.hero {
+    background-image:url('<mark>../img/hero.jpg</mark>'); /* Change to your image here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 400px;
+    color: #fff;
+}
+						</code>
+					</pre>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h3 class="u-decoration-underline">Single page template with slider</h3>
+					<p>1. Open <span>style.css</span> inside <span>assets/css</span> folder.</p>
+					<p>2. On <strong>Line 221</strong> find below section and change URLs to your images URLs.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					<pre class="u-m-b-4">
+						<code>
+.hero--slide1 {
+	background-image: url('<mark>../img/hero1.jpg</mark>'); /* Change to your image here */
+}
+
+.hero--slide2 {
+	background-image: url('<mark>../img/hero2.jpg</mark>'); /* Change to your image here */
+}
+
+.hero--slide3 {
+	background-image: url('<mark>../img/hero3.jpg</mark>'); /* Change to your image here */
+}
+						</code>
+					</pre>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h3 class="u-decoration-underline">Multi-page template without slider</h3>
+					<p>Each page of multi-page template has its own header(hero) image.</p>
+					<p>1. Open <span>index.html</span> and find section below. Replace URL with your image URL.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<pre class="u-m-b-4">
+						<code>
+&lt;!--=== Top image and title ===--&gt;
+&lt;header&gt;
+    &lt;div class="hero hero--small d-flex align-items-center justify-content-center" style="background-image: url('<mark>assets/img/hero-memories.jpg</mark>')"&gt;
+	    &lt;h1 class="hero__title u-font-script text-center" data-aos="zoom-in"&gt;our memories&lt;/h1&gt;
+    &lt;/div&gt;
+&lt;/header&gt;
+						</code>
+					</pre>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h3 class="u-decoration-underline">Multi-page template with slider</h3>
+					<p>1. Open <span>style.css</span> inside <span>assets/css</span> folder.</p>
+					<p>2. On <strong>Line 221</strong> find below section and change URLs to your images URLs.</p>
+					<p>* All other page's main image change directy in HTML like described in previous section - Multp-page template without slider.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					<pre class="u-m-b-4">
+						<code>
+.hero--slide1 {
+	background-image: url('<mark>../img/hero1.jpg</mark>'); /* Change to your image here */
+}
+
+.hero--slide2 {
+	background-image: url('<mark>../img/hero2.jpg</mark>'); /* Change to your image here */
+}
+
+.hero--slide3 {
+	background-image: url('<mark>../img/hero3.jpg</mark>'); /* Change to your image here */
+}
+						</code>
+					</pre>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center">Change RSVP background image</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h3 class="u-decoration-underline">Single page template</h3>
+					<p>1. Open <span>style.css</span> inside <span>assets/css</span> folder.</p>
+					<p>2. Scroll down and find RSVP section and at very top you will see: </p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					<pre>
+						<code>
+/*============== 10. RSVP ==============*/
+.rsvp {
+    background-image: url("<mark>../img/rsvp-bg.jpg</mark>"); /* Change to your RSVP image here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+}
+
+						</code>
+					</pre>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<p class="u-m-b-4">3. Change marked URL to your image.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 offset-lg-2">
+						<h2 class="text-center">Set your date inside counter</h2>
+						<p>Open <span>index.html</span> and find section below</p>
+						<pre>
+							<code>
+&lt!-- Counter. Set your date here as data-date="yyyy/mm/dd" --&gt;
+&lt;ul class="counter-list js-counter clearfix" <mark>data-date="2019/03/16"</mark>&gt;
+    &lt;li class="counter-list__item"&gt;
+	    &lt;span class="js-counter-days">124&lt;/span&gt;
+	    &lt;p&gt;days&lt;/p&gt;
+	    &lt;ion-icon name="heart" class="icon icon--sm icon--primary">&lt;/ion-icon&gt;
+    &lt;/li&gt;
+    &lt;li class="counter-list__item"&gt;
+	    &lt;span class="js-counter-hours"&gt;20&lt;/span&gt;
+	    &lt;p>hours&lt;/p&gt;
+	    &lt;ion-icon name="heart" class="icon icon--sm icon--primary">&lt;/ion-icon&gt;
+    &lt;/li&gt;
+    &lt;li class="counter-list__item"&gt;
+	    &lt;span class="js-counter-minutes">30&lt/span&gt;
+	    &lt;p&gt;minutes&lt/p&gt;
+	    &lt;ion-icon name="heart" class="icon icon--sm icon--primary"&gt;&lt/ion-icon&gt;
+    &lt;/li&gt;
+	    &lt;li class="counter-list__item"&gt;
+	    &lt;span class="js-counter-seconds">50&lt/span&gt;
+	    &lt;p&gt;seconds&lt/p&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+							</code>
+						</pre>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center">Set your e-mail to RSVP form</h2>
+					<p>1. Open <span>rsvp.php</span> inside <span>php</span> folder.</p>
+					<p>2. Go to line 11 and add your e-mail.</p>
+					<code>
+						$to = '<mark>support@themediv.com</mark>'; // Write your e-mail here
+					</code>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center">Add your social profiles</h2>
+					<p>1. Open <span>index.html</span>.</p>
+					<p>2. Scroll down to footer section and replace <span>#</span> with your URL.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<pre>
+						<code>
+&lt;ul class="footer__social"&gt;
+    &lt;!-- set your social profiles URL inside href="link to your profile" --&gt;
+    &lt;li&gt;&lt;a href="<mark>#</mark>"&gt;&lt;ion-icon name="logo-instagram" class="icon icon--sm icon--black"&gt;&lt;/ion-icon&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="<mark>#</mark>"&gt;&lt;ion-icon name="logo-facebook" class="icon icon--sm icon--black"&gt;&lt;/ion-icon&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="<mark>#</mark>"&gt;&lt;ion-icon name="logo-youtube" class="icon icon--sm icon--black"&gt;&lt;/ion-icon&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+						</code>
+					</pre>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center">Use Ion Icons</h2>
+					<p>Ion icons documentation: <a href="https://ionicons.com/" target="_blank">https://ionicons.com/</a></p>
+					<p>To display icon of small size, add class <span>icon--sm</span></p>
+					<code>
+						&lt;ion-icon name="heart" class="icon <mark>icon--sm</mark> icon--primary"&gt;&lt;/ion-icon&gt;
+					</code>
+					<p>To display icon as white, add class <span>icon--white</span></p>
+					<code>
+						&lt;ion-icon name="heart" class="icon <mark>icon--white</mark>"&gt;&lt;/ion-icon&gt;
+					</code>
+					<p>To display icon as black, add class <span>icon--black</span></p>
+					<code>
+						&lt;ion-icon name="heart" class="icon <mark>icon--black</mark>"&gt;&lt;/ion-icon&gt;
+					</code>
+					<p>To display icon in theme main colour, add class <span>icon--primary</span></p>
+					<code>
+						&lt;ion-icon name="heart" class="icon <mark>icon--primary</mark>"&gt;&lt;/ion-icon&gt;
+					</code>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2">
+					<h2 class="text-center">Change colour scheme</h2>
+					<h3>Change to one of predefined schemes</h3>
+					<p>Inside <span>&lt;head&gt;</span> tag of <span>index.html</span> find following line:</p>
+					<code>&lt;link rel="stylesheet" href="assets/css/<mark>style.css</mark>"&gt;</code>
+					<p>Change <span>style.css</span> to your choosen colour scheme:<p>
+					<ul>
+						<li>style-blue.css</li>
+						<li>style-green.css</li>
+						<li>style-orange.css</li>
+						<li>style-purple.css</li>
+						<li>style-red.css</li>
+						<li>style-yellow.css</li>
+					</ul>
+
+					<h3>Change to your custom colour</h3>
+					<p>Open <span>style.css</span> located inside <span>assets/css </span>folder</span> and on Line 7, just above table of content you will see:</p>
+					<code>Primary color:<mark>#ffd7d7</mark> (pink)</code>
+					<p>In entire file find all occurrences of <span>#ffd7d7</span> and replace with your desired colour in HEX format.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="text-center">
+		<h4>Thank you for purchasing L'amore wedding template!</h4>
+		<p>Copyright &copy; Theme Div</p>
+	</footer>
+</body>
+</html>

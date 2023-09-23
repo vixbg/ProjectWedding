@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="L'amore is modern and responsive wedding template.">
+	<!-- change to title of your website -->
+	<title>L'amore | Wedding Template</title>
+
+	<!--===  FONTS ===-->
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,700,700i" rel="stylesheet">
+
+	<!--=== STYLES ===-->
+	<link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/vendors/slick.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<!--=== Top image and title ===-->
+	<header>
+		<div class="hero d-flex align-items-center justify-content-center">
+			<div class="text-center">
+				<img src="assets/img/wreath-white.svg" class="hero__wreath hero__wreath--up"  alt="Sarah and Mike" />
+				<h1 class="hero__title u-font-script" data-aos="zoom-in">Sarah  &  Mike</h1>
+				<p class="hero__date" data-aos="zoom-in" data-aos-delay="400">March 16, 2019</p>
+				<img src="assets/img/wreath-white.svg" class="hero__wreath hero__wreath--down" alt="Sarah and Mike"/>
+			</div>
+		</div>
+	</header>
+	<!--== End of top image and title ==-->
+
+	<!--=== Desktop navigation ===-->
+	<div class="nav u-border-b-grey d-none d-md-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<ul class="nav-list">
+						<li><a href="#story" class="nav-list__link js-nav-link">Our Story</a></li>
+						<li><a href="#friends" class="nav-list__link js-nav-link">Friends</a></li>
+						<li><a href="#location" class="nav-list__link js-nav-link">When & Where</a></li>
+						<li><a href="#rsvp" class="nav-list__link js-nav-link">RSVP</a></li>
+						<li><a href="#memories" class="nav-list__link js-nav-link">Memories</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--== End of desktop navigation ==-->
+
+	<!--=== Mobile navigation ===-->
+	<div class="mobile-nav d-md-none">
+		<div class="mobile-nav__trigger">
+			<a href="#" class="js-open-menu"><ion-icon name="menu" class="icon icon--md icon--white"></ion-icon></a>
+		</div>
+		<ul class="mobile-nav-list js-menu">
+			<li><a href="#story" class="mobile-nav-list__link js-nav-link">Our Story</a></li>
+			<li><a href="#friends" class="mobile-nav-list__link js-nav-link">Friends</a></li>
+			<li><a href="#location" class="mobile-nav-list__link js-nav-link">When & Where</a></li>
+			<li><a href="#rsvp" class="mobile-nav-list__link js-nav-link">RSVP</a></li>
+			<li><a href="#memories" class="mobile-nav-list__link js-nav-link">Memories</a></li>
+		</ul>
+	</div>
+	<!--== End of mobile navigation ==-->
+
+	<!--=== Intro: About bride & groom. Counter. ===-->
+	<section class="intro" id="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="u-m-b-5 text-center u-font-script">we are <br>counting down!</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="intro-content d-lg-flex">
+						<div class="intro-content__col">
+							<div class="intro-content__img" style="background-image:url('assets/img/bride.jpg');"></div>
+							<div class="intro-content__text u-bg-primary d-flex align-items-center">
+								<!-- this section is visible when hovered over bride image -->
+								<div>
+									<h4>About Sarah</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+							</div>
+						</div>
+						<ion-icon name="heart" class="icon icon--xl icon--white"></ion-icon>
+						<div class="intro-content__col">
+							<div class="intro-content__img" style="background-image:url('assets/img/groom.jpg');"></div>
+							<div class="intro-content__text u-bg-grey d-flex align-items-center">
+								<!-- this section is visible when hovered over groom image -->
+								<div>
+									<h4>About Mike</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+					<!-- Counter. Set your date here as data-date="yyyy/mm/dd" -->
+					<ul class="counter-list js-counter clearfix" data-date="2019/03/16">
+						<li class="counter-list__item">
+							<span class="js-counter-days">124</span>
+							<p>days</p>
+							<ion-icon name="heart" class="icon icon--sm icon--primary"></ion-icon>
+						</li>
+						<li class="counter-list__item">
+							<span class="js-counter-hours">20</span>
+							<p>hours</p>
+							<ion-icon name="heart" class="icon icon--sm icon--primary"></ion-icon>
+						</li>
+						<li class="counter-list__item">
+							<span class="js-counter-minutes">30</span>
+							<p>minutes</p>
+							<ion-icon name="heart" class="icon icon--sm icon--primary"></ion-icon>
+						</li>
+						<li class="counter-list__item">
+							<span class="js-counter-seconds">50</span>
+							<p>seconds</p>
+						</li>
+					</ul>
+					<!-- end of counter -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--== End of intro section. ==-->
+
+	<!--=== Out story timeline ===-->
+	<section class="story u-bg-grey js-section" id="story">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="u-m-t-n-3 u-font-script text-center">our story</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-10 offset-lg-1">
+					<div class="story-timeline d-md-flex">
+						<!-- Second and third text block should be written twice because of the different flow on desktop and mobile devices. Desktop uses two column layout, while mobile uses one column.
+						-->
+
+						<!-- Story timeline: left column -->
+						<div class="story-timeline__col story-timeline__col--left">
+							<div class="story-timeline__text">
+								<h4><ion-icon name="heart" class="icon icon--sm icon--primary u-bg-grey d-none d-md-block"></ion-icon>First time we met</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+							<img src="assets/img/timeline2.jpg"  alt="Six happy years" data-aos="zoom-in-right"/>
+							<!-- Only visible on mobile devices -->
+							<div class="story-timeline__text d-md-none" data-aos="zoom-in-right">
+								<h4>Six happy years</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+							<!-- Only visible on desktop devices -->
+							<div class="story-timeline__text d-none d-md-block" data-aos="zoom-in-right">
+								<h4><ion-icon name="heart" class="icon icon--sm icon--primary u-bg-grey d-none d-md-block"></ion-icon>She said yes!</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</div>
+						</div>
+
+						<!-- Story timeline: right column -->
+						<div class="story-timeline__col story-timeline__col--right">
+							<img src="assets/img/timeline1.jpg" alt="First time we met" data-aos="zoom-in-left" />
+							<!-- Only visible on desktop devices -->
+							<div class="story-timeline__text d-none d-md-block" data-aos="zoom-in-left">
+								<h4>Six happy years<ion-icon name="heart" class="icon icon--sm icon--primary u-bg-grey d-none d-md-block" data-aos="zoom-in" data-aos-delay="700"></ion-icon></h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							</div>
+							<!-- Only visible on mobile devices -->
+							<div class="story-timeline__text d-md-none" data-aos="zoom-in-left">
+								<h4>She said yes!</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</div>
+							<img src="assets/img/timeline3.jpg" alt="She said yes" data-aos="zoom-in-left" />
+							<!-- Uncomment this text block if you need 4th step in timeline. -->
+							<!-- <div class="story-timeline__text" data-aos="zoom-in-left">
+							<h4><ion-icon name="heart" class="icon icon--sm icon--primary u-bg-grey d-none d-md-block"></ion-icon>She said yes!</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+							</div>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--== End of our story timeline. ==-->
+
+	<!--=== Bridesmaids & Groomsmen ===-->
+	<section class="friends js-section" id="friends">
+		<h2 class="u-font-script text-center u-m-b-5">our friends</h2>
+		<ul class="slider-list js-slider">
+			<li class="slider-list__item js-slide">
+				<img src="assets/img/friend.jpg" alt="Rachel Brown" />
+				<p class="font-weight-bold">Rachel Brown</p>
+				<p>bridesmaid</p>
+			</li>
+			<li class="slider-list__item js-slide">
+				<img src="assets/img/friend.jpg" alt="Chiara Morin" />
+				<p class="font-weight-bold">Chiara Morin</p>
+				<p>bridesmaid</p>
+			</li>
+			<li class="slider-list__item js-slide">
+				<img src="assets/img/friend.jpg" alt="Lindsay Floyd" />
+				<p class="font-weight-bold">Lindsay Floyd</p>
+				<p>bridesmaid</p>
+			</li>
+			<li class="slider-list__item js-slide">
+				<img src="assets/img/friend.jpg" alt="Elly Beck" />
+				<p class="font-weight-bold">Elly Beck</p>
+				<p>bridesmaid</p>
+			</li>
+			<li class="slider-list__item js-slide">
+				<img src="assets/img/friend.jpg" alt="Jarrad Hoffman" />
+				<p class="font-weight-bold">Jarrad Hoffman</p>
+				<p>groomsman</p>
+			</li>
+			<li class="slider-list__item js-slide">
+				<img src="assets/img/friend.jpg" alt="Arthur Keller" />
+				<p class="font-weight-bold">Arthur Keller</p>
+				<p>groomsman</p>
+			</li>
+			<li class="slider-list__item js-slide">
+				<img src="assets/img/friend.jpg" alt="Alex Hiles" />
+				<p class="font-weight-bold">Alex Hiles</p>
+				<p>groomsman</p>
+			</li>
+			<li class="slider-list__item js-slide">
+				<img src="assets/img/friend.jpg" alt="Jaimie Clements" />
+				<p class="font-weight-bold">Jaimie Clements</p>
+				<p>groomsman</p>
+			</li>
+		</ul>
+		<div class="d-none d-lg-flex slider-arrows js-slider-arrows">
+			<span class="slider-arrow js-arrow-prev">
+				<svg width="40" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 10"><path fill="none" d="M5 10L1 5l4-5M40 5H1.5"/></svg>
+			</span>
+			<ion-icon name="heart" class="icon icon--sm icon--primary"></ion-icon>
+			<span class="slider-arrow js-arrow-next">
+				<svg width="40" height="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 10"><path fill="none" d="M36 0l4 5-4 5M1 5h38.5"/></svg>
+			</span>
+		</div>
+	</section>
+	<!--== End of bridesmaids & groomsmen. ==-->
+
+	<!--=== Qoute ===-->
+	<section class="quote u-bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+					<h3 class="quote__text font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--== End of quote. ==-->
+
+	<!--=== Location Info ===-->
+	<section class="location js-section" id="location">
+		<h2 class="u-font-script text-center u-m-b-5">when & where</h2>
+		<div class="container">
+			<div class="row">
+				<!-- Location: left column -->
+				<div class="col-md-6">
+					<div class="location__text location__text--sm u-bg-grey ml-auto u-m-b-3" data-aos="zoom-in-right">
+						<h6 class="text-uppercase">Wedding Ceremony - 17:00</h6>
+						<h3>Church of St.Willow</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+					<img src="assets/img/location1.jpg" class="location__img location__img--sm ml-auto" alt="Location" data-aos="zoom-in-right">
+					<img src="assets/img/location2.jpg" class="location__img" alt="Location" data-aos="zoom-in-right">
+				</div>
+
+				<!-- Location: right column -->
+				<div class="col-md-6">
+					<img src="assets/img/location3.jpg" class="location__img location__img--sm" alt="Location" data-aos="zoom-in-left">
+					<div class="location__text location__text--sm u-bg-grey" data-aos="zoom-in-left">
+						<h6 class="text-uppercase">Wedding Party - 19:00</h6>
+						<h3>Oak Park</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--== End of location info. ==-->
+
+	<!--=== RSVP form ===-->
+	<section class="rsvp js-section" id="rsvp">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-10 offset-xl-1">
+					<div class="rsvp-box u-bg-white">
+						<div class="js-form-wrapper">
+							<div class="text-center">
+								<h3 class="rsvp-box__title u-font-script">be our guest!</h3>
+								<p class="rsvp-box__subtitle">Please confirm your arrival by <mark class="font-weight-bold">February 14, 2019</mark></p>
+							</div>
+							<form method="POST" class="rsvp-form js-form" id="rsvp-form" action="php/rsvp.php">
+								<div class="d-md-flex justify-content-between">
+									<div class="rsvp-form__left">
+										<div class="rsvp-form-field">
+											<input type="text" name="fullname" placeholder="Full Name" required>
+										</div>
+										<div class="rsvp-form-field">
+											<input type="email" name="email" placeholder="Your E-mail" class="js-email" required>
+											<p class="rsvp-form-field__error js-email-error">E-mail is incorrect.</p>
+										</div>
+										<div class="rsvp-form-field">
+											<input type="number" name="guests" placeholder="Number of guests" required>
+										</div>
+										<div class="rsvp-form-field">
+											<select name="attending" required>
+												<option value="" disabled selected>You are attending?</option>
+												<option value="all">All</option>
+												<option value="ceremony">Ceremony</option>
+												<option value="party">Dinner & Party</option>
+											</select>
+										</div>
+									</div>
+									<div class="rsvp-form__right">
+										<div class="rsvp-form-field h-100">
+											<textarea rows="4" placeholder="Your Message" class="h-100" name="message"></textarea>
+										</div>
+									</div>
+								</div>
+								<button type="submit" class="rsvp-form-submit js-submit">
+									<ion-icon name="heart" class="icon icon--sm icon--white animation-pulse"></ion-icon>
+									<span>Send</span>
+									<ion-icon name="heart" class="icon icon--md icon--white animation-pulse"></ion-icon></button>
+							</form>
+						</div>
+						<!-- this message appears after rsvp-form is submitted correctly -->
+						<div class="rsvp-confirmation text-center js-form-confirmation">
+							<h4>We recieved your reservation.</h4>
+							<span class="u-font-script u-h3">thank you!</span>
+							<ion-icon name="heart" class="icon icon--md icon--primary"></ion-icon>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--== End of RSVP rsvp-form. ==-->
+
+	<!--=== Memories ===-->
+	<section class="memories js-section" id="memories">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="u-font-script text-center u-m-b-5">our memories<ion-icon name="heart" class="icon icon--sm icon--primary"></ion-icon></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class=" grid">
+						<div class="grid-sizer"></div>
+						<div class="gutter-sizer"></div>
+						<div class="grid-item">
+							<img src="assets/img/memories/memory1.jpg" class="memories__img" alt="memory1"/>
+						</div>
+						<div class="grid-item">
+							<img src="assets/img/memories/memory2.jpg" class="memories__img" alt="memory2"/>
+						</div>
+						<div class="grid-item">
+							<img src="assets/img/memories/memory3.jpg" class="memories__img" alt="memory3"/>
+						</div>
+						<div class="grid-item">
+							<img src="assets/img/memories/memory4.jpg" class="memories__img" alt="memory4"/>
+						</div>
+						<div class="grid-item">
+							<img src="assets/img/memories/memory5.jpg" class="memories__img" alt="memory5"/>
+						</div>
+						<div class="grid-item">
+							<img src="assets/img/memories/memory6.jpg" class="memories__img" alt="memory6"/>
+						</div>
+						<div class="grid-item">
+							<img src="assets/img/memories/memory7.jpg" class="memories__img" alt="memory7"/>
+						</div>
+						<div class="grid-item">
+							<img src="assets/img/memories/memory8.jpg" class="memories__img" alt="memory8"/>
+						</div>
+						<div class="grid-item">
+							<img src="assets/img/memories/memory9.jpg" class="memories__img" alt="memory9"/>
+						</div>
+						<div class="grid-item">
+							<img src="assets/img/memories/memory10.jpg" class="memories__img" alt="memory10"/>
+						</div>
+						<div class="grid-item">
+							<img src="assets/img/memories/memory11.jpg" class="memories__img" alt="memory11"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--== End of memories ==-->
+
+	<!--=== Footer ===-->
+	<footer class="footer u-bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="text-center">
+						<h2 class="u-font-script">thank <ion-icon name="heart" class="icon icon--md icon--primary animation-pulse"></ion-icon> you!</h2>
+						<ul class="footer__social">
+							<!-- set your social profiles URL inside href="link to your profile" -->
+							<li><a href="#"><ion-icon name="logo-instagram" class="icon icon--sm icon--black"></ion-icon></a></li>
+							<li><a href="#"><ion-icon name="logo-facebook" class="icon icon--sm icon--black"></ion-icon></a></li>
+							<li><a href="#"><ion-icon name="logo-youtube" class="icon icon--sm icon--black"></ion-icon></a></li>
+						</ul>
+						<p class="footer__copy">All rights reserved &copy; 2018</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--== End of footer ==-->
+
+
+<!--===  SCRIPTS ===-->
+<script src="assets/js/vendors/jquery-3.3.1.min.js"></script>
+<script src="assets/js/vendors/bootstrap.min.js"></script>
+<script src="assets/js/vendors/jquery.countdown.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="assets/js/vendors/slick.min.js"></script>
+<script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
